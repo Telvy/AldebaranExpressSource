@@ -1,4 +1,3 @@
-//
 // Standard shaders collection
 //
 //  These shaders are compiled as the following shader models:
@@ -7,10 +6,5 @@
 //	    _vs20.vcs
 //
 
-//example_model_ps20b.fxc
-//example_model_vs20.fxc
-
 pbr_vs20.fxc
 pbr_ps20b.fxc
-
-

@@ -10,7 +10,7 @@
 #include "cpp_shader_constant_register_map.h"
 
 #include "SDK_decalmodulate_vs20.inc"
-#include "SDK_decalmodulate_ps20.inc"
+#include "fxctmp9/SDK_decalmodulate_ps20.inc"
 #include "SDK_decalmodulate_ps20b.inc"
 
 #ifndef _X360

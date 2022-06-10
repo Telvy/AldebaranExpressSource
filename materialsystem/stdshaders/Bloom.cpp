@@ -8,7 +8,7 @@
 #include "BaseVSShader.h"
 
 #include "SDK_screenspaceeffect_vs20.inc"
-#include "SDK_Bloom_ps20.inc"
+#include "fxctmp9/SDK_Bloom_ps20.inc"
 #include "SDK_Bloom_ps20b.inc"
 
 BEGIN_VS_SHADER_FLAGS( SDK_Bloom, "Help for Bloom", SHADER_NOT_EDITABLE )

@@ -91,7 +91,7 @@
 
 // Auto generated inc files
 #include "SDK_emissive_scroll_blended_pass_vs20.inc"
-#include "SDK_emissive_scroll_blended_pass_ps20.inc"
+#include "fxctmp9/SDK_emissive_scroll_blended_pass_ps20.inc"
 #include "SDK_emissive_scroll_blended_pass_ps20b.inc"
 
 #ifndef _X360

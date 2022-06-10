@@ -5,10 +5,10 @@ rem ================================
 rem ==== MOD PATH CONFIGURATIONS ===
 
 rem == Set the absolute path to your mod's game directory here ==
-set GAMEDIR=%cd%\..\..\..\game\mod_episodic
+set GAMEDIR=C:\PROGRA~2\Steam\STEAMA~1\SOURCE~1\AldebaranExpress
 
 rem == Set the relative or absolute path to Source SDK Base 2013 Singleplayer\bin ==
-set SDKBINDIR=C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Singleplayer\bin
+set SDKBINDIR=B:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\bin
 
 rem ==  Set the Path to your mod's root source code ==
 rem This should already be correct, accepts relative paths only!
@@ -19,6 +19,8 @@ rem ====================================
 
 
 call buildsdkshaders.bat
+call buildincludes.bat stdshader_dx9_20b     -game %GAMEDIR% -source %SOURCEDIR%
+call buildincludes.bat stdshader_dx9_30        -game %GAMEDIR% -source %SOURCEDIR% -dx9_30 -force30
 
 @echo Finished building shaders
 @pause

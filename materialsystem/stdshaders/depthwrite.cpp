@@ -8,7 +8,7 @@
 
 #include "BaseVSShader.h"
 
-#include "SDK_depthwrite_ps20.inc"
+#include "fxctmp9/SDK_depthwrite_ps20.inc"
 #include "SDK_depthwrite_ps20b.inc"
 #include "SDK_depthwrite_vs20.inc"
 

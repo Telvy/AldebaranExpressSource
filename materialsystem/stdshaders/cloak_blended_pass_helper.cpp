@@ -136,7 +136,7 @@
 
 // Auto generated inc files
 #include "SDK_cloak_blended_pass_vs20.inc"
-#include "SDK_cloak_blended_pass_ps20.inc"
+#include "fxctmp9/SDK_cloak_blended_pass_ps20.inc"
 #include "SDK_cloak_blended_pass_ps20b.inc"
 
 #ifndef _X360
